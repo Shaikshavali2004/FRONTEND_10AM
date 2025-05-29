@@ -1,0 +1,21 @@
+Tag categories:
+
+1.Document Tags:- html,head,body,title,link,style,meta,script.
+
+2.Text Formating Tags:- h1,h2 ....h6,p,i,b,span
+
+3.Structure Tags:-<div>,<section>,<article>,<aside>
+
+4.Image Tags:-<img />
+
+5.Link Tags:-<a>  </a>
+
+6.List Tags:-<ul>,<ol>,<li>
+
+7.Table Tags:-<table>,<thead>,<tbody>,<td>,<tr>
+
+8.Form Tags:-<form>,<label>,<input />,<button>,<select><option></option></select>,<textarea>
+
+9.Frame Tags:-<iframe />
+
+10.HTML 5(New):-<audio>,<video>,<mark>,<address>,<canvas>,<svg>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sponsor Registration</title>
+</head>
+<body>
+    <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sponsor Registration</h1>
+    <form>
+        <div style="display: flex; gap: 40px;">
+            <!-- Left column -->
+            <div>
+                <label>Prefix:<br><input type="text" name="prefix"></label><br><br>
+
+                <label>First Name:<br><input type="text" name="first_name"></label><br><br>
+                <label>Last Name:<br><input type="text" name="last_name"></label><br><br>
+
+                <label>Preferred Pronouns:<br><input type="text" name="pronouns"></label><br><br>
+                <label>Email:<br><input type="email" name="email" placeholder="sample@example.com"></label><br><br>
+                <label>Work Phone:<br><input type="text" name="work_phone"></label><br><br>
+                <label>Cell Phone:<br><input type="text" name="cell_phone"></label><br><br>
+                <label>Job Title:<br><input type="text" name="job_title"></label><br><br>
+                <label>Company:<br><input type="text" name="company"></label><br><br>
+                <label>Full Business Address:<br><input type="text" name="business_address" style="width: 250px;"></label><br><br>
+                <label>Company Website:<br><input type="text" name="company_website" style="width: 250px;"></label>
+            </div>
+
+            <!-- Right column -->
+            <div>
+                <label>Company Description:<br>
+                    <textarea name="company_description" rows="4" cols="30"></textarea>
+                </label><br><br>
+
+                <label>Company Facebook Page:<br><input type="text" name="facebook_page"></label><br><br>
+                <label>Company Twitter Handle:<br><input type="text" name="twitter_handle"></label><br><br>
+                <label>Company LinkedIn Handle:<br><input type="text" name="linkedin_handle"></label><br><br>
+
+                <label>Sponsorship Level:</label><br>
+                <input type="radio" name="sponsorship_level" value="Gold"> Gold<br>
+                <input type="radio" name="sponsorship_level" value="Diamond"> Diamond<br>
+                <input type="radio" name="sponsorship_level" value="Platinum"> Platinum<br><br>
+
+                <label>Additional Guests (name, email):<br>
+                    <textarea name="additional_guests" rows="3" cols="30"></textarea>
+                </label>
+            </div>
+        </div>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
