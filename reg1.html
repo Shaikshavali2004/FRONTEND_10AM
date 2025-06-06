@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="/get">
+        <label>User Name*</label>
+        <input type = "text" placeholder="enter user name" minlength="5" maxlength="8" required><br><br>
+        <label>Mobile*</label>
+        <input type="text" placeholder="Enter 10 digit number" pattern="[6-9][0-9]{9}" required/>
+        <br><br>
+        <label>Country1</label>
+        <input type="text"  value="ANATAPUR" readonly/><br><br>
+        <label>Country2</label>
+        <input type="text" value="BANGALORE" disabled/><br><br>
+        <input type="checkbox"/>please accept T&C<br><br>
+        <input type="submit" value="submit"/>
+    </form>
+</body>
+</html>
